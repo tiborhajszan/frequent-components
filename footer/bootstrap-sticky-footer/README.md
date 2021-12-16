@@ -1,0 +1,1 @@
+Demo sticky footer using the Bootstrap solution
