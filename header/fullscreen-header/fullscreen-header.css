@@ -1,0 +1,116 @@
+/*******************************/
+/*** CSS Reset by Eric Meyer ***/
+/*******************************/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption,
+tbody, tfoot, thead, tr, th, td, article,
+aside, canvas, details, embed, figure,
+figcaption, footer, header, hgroup, menu, nav,
+output, ruby, section, summary, time, mark,
+audio, video {
+  vertical-align: baseline;
+	margin: 0;
+  border: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+/********************************/
+/*** Fullscreen Header Styles ***/
+/********************************/
+.cover {
+  display: table;
+  background: url('https://orange.codeberryschool.com/content/images/project-assets/page-header-bg.jpg') no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  font-family: "Cormorant Garamond", serif;
+  color: hsla(0, 0%, 100%, .7);
+  text-align: center;
+}
+.container {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0 .625rem;
+}
+.byline h2 {
+  margin-bottom: .5rem;
+  text-transform: uppercase;
+  font-size: 1.125rem;
+  letter-spacing: .1rem;
+  line-height: 1.5rem;
+}
+.byline h3 {
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+}
+.headline {
+  margin: 2rem 0;
+  font-size: 3rem;
+}
+@media (min-width: 1200px) {
+  .headline {
+    font-size: 6rem;
+  }
+}
+.tagline {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+}
+
+/**********************/
+/*** Article Styles ***/
+/**********************/
+section {
+  padding: 0 .625rem;
+}
+@media (min-width: 1200px) {
+  section {
+    width: 50%;
+    max-width: 600px;
+    margin: 2rem auto;
+  }
+}
+section h1 {
+  margin: 2rem 0;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 2rem;
+  line-height: 1.25;
+}
+section p {
+  margin: 1rem 0;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}

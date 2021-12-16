@@ -1,0 +1,1 @@
+Simple blog header, contains logo, title, and location
