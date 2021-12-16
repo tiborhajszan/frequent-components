@@ -1,0 +1,114 @@
+/*******************************/
+/*** CSS Reset by Eric Meyer ***/
+/*******************************/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption,
+tbody, tfoot, thead, tr, th, td, article,
+aside, canvas, details, embed, figure,
+figcaption, footer, header, hgroup, menu, nav,
+output, ruby, section, summary, time, mark,
+audio, video {
+  vertical-align: baseline;
+	margin: 0;
+  border: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+/***************************/
+/*** Fixed Navbar Styles ***/
+/***************************/
+nav {
+  background-color: black;
+  padding: 1rem;
+}
+nav a {
+  display: block;
+  padding: .5rem 1rem;
+  font-family: "Space Mono", monospace;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  body {
+    margin: 5rem auto 1rem;
+  }
+  nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+  }
+  nav a {
+    float: right;
+  }
+  nav a.left {
+    float: left;
+  }
+  nav::after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+}
+nav a.border {
+  border: 1px solid #444;
+  border-radius: 9999px;
+}
+nav a:hover {
+  color: #ccc;
+  transition: color .25s ease-in-out;
+}
+nav a.border:hover {
+  background-color: white;
+  color: black;
+  transition: all .25s ease-in-out;
+}
+
+/*********************/
+/*** Helper Styles ***/
+/*********************/
+p {
+  margin-bottom: 1.25rem;
+  padding: .5rem;
+  font-family: "Space Mono", monospace;
+  font-size: 1rem;
+}
+@media (min-width: 768px) {
+  body {
+    width: 60%;
+    margin: 5.25rem auto 1.25rem;
+  }
+}

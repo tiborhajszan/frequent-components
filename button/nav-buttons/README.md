@@ -1,1 +1,1 @@
-Pair of simple, animated, navigation buttons
+Pair of simple navigation buttons, animated

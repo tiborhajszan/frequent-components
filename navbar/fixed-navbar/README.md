@@ -1,0 +1,1 @@
+Fixed top navbar, floated links, animated, responsive design
