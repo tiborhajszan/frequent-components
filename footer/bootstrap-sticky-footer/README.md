@@ -1,1 +1,1 @@
-Demo sticky footer using the Bootstrap solution
+Demo sticky footer, Bootstrap solution

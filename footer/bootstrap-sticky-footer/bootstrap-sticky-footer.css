@@ -46,9 +46,9 @@ table {
   box-sizing: border-box;
 }
 
-/*********************************/
-/*** Sticky Footer - Bootstrap ***/
-/*********************************/
+/**************************************/
+/*** Bootstrap Sticky Footer Styles ***/
+/**************************************/
 html {
   min-height: 100%;
   position: relative;

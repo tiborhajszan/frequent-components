@@ -46,9 +46,9 @@ table {
   box-sizing: border-box;
 }
 
-/*********************/
-/*** Simple Footer ***/
-/*********************/
+/****************************/
+/*** Simple Footer Styles ***/
+/****************************/
 footer {
   display: table;
   background: url('https://orange.codeberryschool.com/content/images/project-assets/simple-footer.png') repeat center;

@@ -1,1 +1,1 @@
-Barebone webpage footer containing copyright and links
+Barebone webpage footer, contains copyright and links
